@@ -34,7 +34,9 @@
       "qchat":"Q-CHAT",
       "groupmanagement":"ZARZĄDZANIE GRUPAMI",
       "puzzles":"PUZZLE",
-      "nodemanagement":"ZARZĄDZANIE WĘZŁAMI"
+      "nodemanagement":"ZARZĄDZANIE WĘZŁAMI",
+      "trading":"HANDLOWY",
+      "groups":"GRUPY"
    },
    "login":{
       "login":"Zaloguj się",
@@ -117,7 +119,16 @@
       "addandsave":"Dodaj i zapisz",
       "protocol":"Protokół",
       "domain":"Domena",
-      "port":"Port"
+      "port":"Port",
+      "import":"Importuj Węzły",
+      "export":"Eksportuj Węzły",
+      "deletecustomnode":"Usuń wszystkie niestandardowe węzły",
+      "warning":"Twoje istniejące węzły zostaną usunięte, a z kopii zapasowej utworzone nowe.",
+      "snack1":"Pomyślnie usunięto i dodano standardowe węzły",
+      "snack2":"Interfejs użytkownika połączony z węzłem",
+      "snack3":"Pomyślnie dodano i zapisano niestandardowy węzeł",
+      "snack4":"Węzły pomyślnie zapisane jako",
+      "snack5":"Węzły pomyślnie zaimportowane"
    },
    "appinfo":{
       "blockheight":"Wysokość bloku",
@@ -141,7 +152,9 @@
       "next":"Następny",
       "create":"Utwórz",
       "continue":"Kontynuuj",
-      "save":"Zapisz"
+      "save":"Zapisz",
+      "balance":"Saldo",
+      "balances":"SALDO TWOJEGO PORTFELA"
    },
    "startminting":{
       "smchange1":"Nie można pobrać kont menniczych",
@@ -299,7 +312,22 @@
       "tchange30":"Nie udało się pobrać salda. Spróbuj ponownie!",
       "tchange31":"SPRZEDANY",
       "tchange32":"KUPIONY",
-      "tchange33":"Kurs wymiany"
+      "tchange33":"Przeciętny",
+      "tchange34":"Kwota nie może wynosić 0",
+      "tchange35":"Cena nie może wynosić 0",
+      "tchange36":"OCZEKUJĄCY NA AUTOMATYCZNY KUP",
+      "tchange37":"Nie znaleziono automatycznego zamówienia zakupu!",
+      "tchange38":"DODAJ",
+      "tchange39":"AUTOMATYCZNE ZAMÓWIENIE",
+      "tchange40":"Cena £",
+      "tchange41":"Pomyślnie usunięto automatyczne zamówienie zakupu!",
+      "tchange42":"RYNEK OTWARTYCH ZLECEŃ SPRZEDAŻY",
+      "tchange43":"MOJA HISTORIA ZAKUPÓW",
+      "tchange44":"Pomyślnie dodano automatyczne zamówienie zakupu!",
+      "tchange45":"AUTO KUP Z",
+      "tchange46":"AUTO KUP",
+      "tchange47":"Sprzedaj za tę cenę",
+      "tchange48":"NIEWYSTARCZAJĄCO"
    },
    "rewardsharepage":{
       "rchange1":"Podział nagród",
@@ -496,7 +524,8 @@
       "bcchange6":"Czy na pewno chcesz zablokować tego użytkownika?",
       "bcchange7":"MENU",
       "bcchange8":"Kopiuj Adres",
-      "bcchange9":"Prywatna Wiadomość"
+      "bcchange9":"Prywatna Wiadomość",
+      "bcchange10":"Więcej"
    },
    "grouppage":{
       "gchange1":"Grupy Qortal",
@@ -664,5 +693,28 @@
       "schange19":"Kopiuj klucz sponsorski",
       "schange20":"Tworzenie relacji",
       "schange21":"Usuń klucz sponsorsk"
+   },
+   "explorerpage":{
+      "exp1":"Adres lub nazwa do wyszukania",
+      "exp2":"Bilans konta",
+      "exp3":"Więcej informacji",
+      "exp4":"Nie znaleziono adresu lub nazwy!",
+      "exp5":"Należy pamiętać, że w zarejestrowanych nazwach rozróżniana jest wielkość liter.",
+      "exp6":"Założyciel",
+      "exp7":"Informacje",
+      "exp8":"Pokaż wszystkie transakcje kupna",
+      "exp9":"Pokaż wszystkie transakcje sprzedaży",
+      "exp10":"KUP HISTORIĘ",
+      "exp11":"HISTORIA SPRZEDAŻY",
+      "exp12":"Nie dokonano jeszcze żadnych transakcji kupna.",
+      "exp13":"Nie dokonano jeszcze żadnych transakcji sprzedaży.",
+      "exp14":"Pokaż pełne informacje",
+      "exp15":"Bicie od",
+      "exp16":"Bez bicia",
+      "exp17":"WSZYSTKIE PŁATNOŚCI",
+      "exp18":"Płatności",
+      "exp19":"Wysłane",
+      "exp20":"Otrzymano",
+	  "exp21":"Transakcji"
    }
 }

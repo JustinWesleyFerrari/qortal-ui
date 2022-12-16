@@ -34,7 +34,9 @@
       "qchat":"Q-CHAT",
       "groupmanagement":"GESTIONE DEI GRUPPI",
       "puzzles":"PUZZLES",
-      "nodemanagement":"GESTIONE DEI NODI"
+      "nodemanagement":"GESTIONE DEI NODI",
+      "trading":"COMMERCIO",
+      "groups":"GRUPPI"
    },
    "login":{
       "login":"Login",
@@ -117,7 +119,16 @@
       "addandsave":"Aggiungi e salva",
       "protocol":"Protocollo",
       "domain":"Dominio",
-      "port":"Porta"
+      "port":"Porta",
+      "import":"Importa Nodi",
+      "export":"Esporta Nodi",
+      "deletecustomnode":"Rimuovi tutti i nodi personalizzati",
+      "warning":"I tuoi nodi esistenti verranno eliminati e dal backup verranno creati di nuovo.",
+      "snack1":"Nodi standard eliminati e aggiunti con successo",
+      "snack2":"Interfaccia utente collegata al nodo",
+      "snack3":"Nodo personalizzato aggiunto e salvato con successo",
+      "snack4":"Nodi salvati con successo come",
+      "snack5":"Nodi importati correttamente"
    },
    "appinfo":{
       "blockheight":"Altezza blocco",
@@ -141,7 +152,9 @@
       "next":"Avanti",
       "create":"Creare",
       "continue":"Continua",
-      "save":"Salva"
+      "save":"Salva",
+      "balance":"Saldo",
+      "balances":"IL TUO SALDO DEL PORTAFOGLIO"
    },
    "startminting":{
       "smchange1":"Impossibile recuperare i conti di conio",
@@ -299,7 +312,22 @@
       "tchange30":"Impossibile recuperare il saldo. Riprova!",
       "tchange31":"VENDUTO",
       "tchange32":"ACQUISTATO",
-      "tchange33":"Tasso di cambio"
+      "tchange33":"Media",
+      "tchange34":"L'importo non può essere 0",
+      "tchange35":"Il prezzo non può essere 0",
+      "tchange36":"ACQUISTO AUTO IN ATTESA",
+      "tchange37":"Nessun ordine di acquisto automatico trovato!",
+      "tchange38":"INSERISCI",
+      "tchange39":"ORDINE DI ACQUISTO AUTOMATICO",
+      "tchange40":"Prezzo",
+      "tchange41":"Ordine di acquisto automatico rimosso con successo!",
+      "tchange42":"MERCATO APERTO ORDINI DI VENDITA",
+      "tchange43":"LA MIA STORIA DI ACQUISTO",
+      "tchange44":"Ordine di acquisto automatico aggiunto con successo!",
+      "tchange45":"ACQUISTA AUTO CON",
+      "tchange46":"ACQUISTO AUTO",
+      "tchange47":"Vendi a questo prezzo",
+      "tchange48":"NON ABBASTANZA"
    },
    "rewardsharepage":{
       "rchange1":"Quote di ricompensa",
@@ -496,7 +524,8 @@
       "bcchange6":"Sei sicuro di bloccare questo utente?",
       "bcchange7":"MENÙ",
       "bcchange8":"Copia Indirizzo",
-      "bcchange9":"Messaggio Privato"
+      "bcchange9":"Messaggio Privato",
+      "bcchange10":"Di più"
    },
    "grouppage":{
       "gchange1":"Gruppi Qortal",
@@ -664,5 +693,28 @@
       "schange19":"Copia la chiave di sponsorizzazione",
       "schange20":"Creare relazione",
       "schange21":"Rimuovi la chiave di sponsorizzazione"
+   },
+   "explorerpage":{
+      "exp1":"Indirizzo o nome da cercare",
+      "exp2":"Saldo del conto",
+      "exp3":"Ulteriori informazioni",
+      "exp4":"Indirizzo o nome non trovato!",
+      "exp5":"Si noti che i nomi registrati fanno distinzione tra maiuscole e minuscole.",
+      "exp6":"Fondatore",
+      "exp7":"Informazioni",
+      "exp8":"Mostra tutte le compravendite",
+      "exp9":"Mostra tutte le operazioni di vendita",
+      "exp10":"ACQUISTA CRONOLOGIA",
+      "exp11":"VENDI STORIA",
+      "exp12":"Nessuna operazione di acquisto ancora effettuata.",
+      "exp13":"Nessuna operazione di vendita ancora effettuata.",
+      "exp14":"Mostra informazioni complete",
+      "exp15":"Conio da",
+      "exp16":"Non conio",
+      "exp17":"TUTTI I PAGAMENTI",
+      "exp18":"Pagamenti",
+      "exp19":"Inviato",
+      "exp20":"Ricevuto",
+	  "exp21":"Mestieri"
    }
 }

@@ -34,7 +34,9 @@
       "qchat":"Q-ĆASKANJE",
       "groupmanagement":"MENADŽMENT GRUPA",
       "puzzles":"SLAGALICE",
-      "nodemanagement":"MENADŽMENT ČVORIŠTA"
+      "nodemanagement":"MENADŽMENT ČVORIŠTA",
+      "trading":"TRADING",
+      "groups":"GRUPE"
    },
    "login":{
       "login":"Prijava",
@@ -117,7 +119,16 @@
       "addandsave":"Dodajte i Sačuvajte",
       "protocol":"Protokol",
       "domain":"Domena",
-      "port":"Port"
+      "port":"Port",
+      "import":"Uvoz Čvorova",
+      "export":"Izvoz Čvorova",
+      "deletecustomnode":"Uklonite sve prilagođene čvorove",
+      "warning":"Vaši postojeći čvorovi će biti izbrisani, a iz rezervne kopije biće stvoreni novi.",
+      "snack1":"Uspešno su izbrisani i dodati standardni čvorovi",
+      "snack2":"UI je povezan sa čvorom",
+      "snack3":"Uspešno dodat i sačuvan prilagođeni čvor",
+      "snack4":"Čvorovi su uspešno sačuvani kao",
+      "snack5":"Čvorovi su uspešno uvezeni"
    },
    "appinfo":{
       "blockheight":"Visina Bloka",
@@ -141,7 +152,9 @@
       "next":"Dalje",
       "create":"Napravite",
       "continue":"Nastavite",
-      "save":"Sačuvajte"
+      "save":"Sačuvajte",
+      "balance":"Kredit",
+      "balances":"VAŠI STANJE U NOVČANIKU"
    },
    "startminting":{
       "smchange1":"Nije moguće preuzeti naloge za kovanje",
@@ -299,7 +312,22 @@
       "tchange30":"Neuspešna provera salda. Pokušajte ponovo!",
       "tchange31":"PRODATO",
       "tchange32":"KUPLJENO",
-      "tchange33":"Kurs"
+      "tchange33":"Prosek",
+      "tchange34":"Iznos ne može biti 0",
+      "tchange35":"Cena ne može biti 0",
+      "tchange36":"NA ČEKANJU AUTOMATSKA KUPOVINA",
+      "tchange37":"Nije pronađena narudžbina za automatsku kupovinu!",
+      "tchange38":"DODATI",
+      "tchange39":"AUTO KUPOVINA",
+      "tchange40":"Cena",
+      "tchange41":"Narudžbina za automatsku kupovinu je uspešno uklonjena!",
+      "tchange42":"TRŽIŠTE OTVORENI NALOG ZA PRODAJU",
+      "tchange43":"MOJA ISTORIJA KUPOVINE",
+      "tchange44":"Narudžbina za automatsku kupovinu je uspešno dodata!",
+      "tchange45":"AUTO KUPI SA",
+      "tchange46":"AUTO BUI",
+      "tchange47":"Prodaj za ovu cenu",
+      "tchange48":"NEDOVOLJNO"
    },
    "rewardsharepage":{
       "rchange1":"Udeo nagrade",
@@ -496,7 +524,8 @@
       "bcchange6":"Da li ste sigurni da blokirate ovog korisnika?",
       "bcchange7":"MENI",
       "bcchange8":"Kopiraj Adresu",
-      "bcchange9":"Privatna Poruka"
+      "bcchange9":"Privatna Poruka",
+      "bcchange10":"Više"
    },
    "grouppage":{
       "gchange1":"Qortal Grupe",
@@ -664,5 +693,28 @@
       "schange19":"Kopiraj sponzorski ključ",
       "schange20":"Stvaranje odnosa",
       "schange21":"Uklonite sponzorski ključ"
+   },
+   "explorerpage":{
+      "exp1":"Adresa ili ime za pretragu",
+      "exp2":"Stanje na računu",
+      "exp3":"Više informacija",
+      "exp4":"Adresa ili ime nisu pronađeni!",
+      "exp5":"Imajte na umu da registrovana imena razlikuju velika i mala slova.",
+      "exp6":"Osnivač",
+      "exp7":"Info",
+      "exp8":"Prikaži sve kupovne trgovine",
+      "exp9":"Prikaži sve poslove prodaje",
+      "exp10":"KUPITE ISTORIJU",
+      "exp11":"ISTORIJA PRODAJE",
+      "exp12":"Još nije napravljena kupovina.",
+      "exp13":"Još nije izvršena nijedna trgovina.",
+      "exp14":"Prikaži kompletne informacije",
+      "exp15":"Kovanje od",
+      "exp16":"Ne kuje",
+      "exp17": "SVA PLAĆANJA",
+      "exp18":"Plaćanja",
+      "exp19":"Poslato",
+      "exp20":"Primljeno",
+	  "exp21":"Trgovine"
    }
 }

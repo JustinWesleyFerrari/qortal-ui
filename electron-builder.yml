@@ -27,6 +27,8 @@ files:
       - "config/"
       - "scripts/"
       - "build/"
+      - "lib/*.js"
+      - "locales/*.json"
 
 # Mac OS configuration
 mac:
@@ -99,7 +101,7 @@ linux:
     StartupWMClass: qortal-ui
   executableArgs:
     - --no-sandbox
-    - '--js-flags="--max-old-space-size=6144"'
+    - '--js-flags="--max-old-space-size=3584"'
   target:
     - "deb"
     - "AppImage"

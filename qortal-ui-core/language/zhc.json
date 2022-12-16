@@ -34,7 +34,9 @@
       "qchat":"Q-CHAT",
       "groupmanagement":"群组管理",
       "puzzles":"益智游戏",
-      "nodemanagement":"节点管理"
+      "nodemanagement":"节点管理",
+      "trading":"贸易",
+      "groups":"团体"
    },
    "login":{
       "login":"登入",
@@ -117,7 +119,16 @@
       "addandsave":"添加并保存",
       "protocol":"协议",
       "domain":"域名",
-      "port":"端口"
+      "port":"端口",
+      "import":"导入节点",
+      "export":"导出节点",
+      "deletecustomnode":"删除所有自定义节点",
+      "warning":"您现有的节点将被删除并从备份中创建新的。",
+      "snack1":"成功删除和添加标准节点",
+      "snack2":"连接到节点的 UI",
+      "snack3":"成功添加并保存自定义节点",
+      "snack4":"节点成功保存为",
+      "snack5":"节点成功导入"
    },
    "appinfo":{
       "blockheight":"区块高度",
@@ -141,7 +152,9 @@
       "next":"下一步",
       "create":"新建",
       "continue":"继续",
-      "save":"保存"
+      "save":"保存",
+      "balance":"信用",
+      "balances":"您的钱包余额"
    },
    "startminting":{
       "smchange1":"无法获取铸币帐户",
@@ -299,7 +312,22 @@
       "tchange30":"加载余额失败。请重新尝试!",
       "tchange31":"已卖出",
       "tchange32":"已买入",
-      "tchange33":"汇率"
+      "tchange33":"平均",
+      "tchange34":"金额不能为0",
+      "tchange35":"价格不能为0",
+      "tchange36":"待定汽车购买",
+      "tchange37":"未找到自动购买订单！",
+      "tchange38":"添加",
+      "tchange39":"自动购买订单",
+      "tchange40":"价格",
+      "tchange41":"成功删除自动购买订单！",
+      "tchange42":"开市卖单",
+      "tchange43":"我的购买历史",
+      "tchange44":"成功添加自动买单！",
+      "tchange45":"自动购买",
+      "tchange46":"自动购买",
+      "tchange47":"以这个价格出售",
+      "tchange48":"不够"
    },
    "rewardsharepage":{
       "rchange1":"铸币密钥",
@@ -496,7 +524,8 @@
       "bcchange6":"你确定要封锁这个用户吗？",
       "bcchange7":"菜单",
       "bcchange8":"复制地址",
-      "bcchange9":"私人信息"
+      "bcchange9":"私人信息",
+      "bcchange10":"更多的"
    },
    "grouppage":{
       "gchange1":"Qortal 群组",
@@ -664,5 +693,28 @@
       "schange19":"复制赞助密钥",
       "schange20":"建立关系",
       "schange21":"删除赞助密钥"
+   },
+   "explorerpage":{
+	  "exp1":"需要搜索的钱包地址或名称",
+      "exp2":"账户余额",
+      "exp3":"更多信息",
+      "exp4":"找不到相关钱包地址或名称！",
+      "exp5":"请注意，注册名称区分大小写。",
+      "exp6":"创始人",
+      "exp7":"信息",
+      "exp8":"显示所有买入交易",
+      "exp9":"显示所有卖出交易",
+      "exp10":"买入历史",
+      "exp11":"卖出历史",
+      "exp12":"还没有买入交易。",
+      "exp13":"还没有卖出交易。",
+      "exp14":"显示完整信息",
+      "exp15":"铸币时间",
+      "exp16":"不铸币",
+      "exp17":"所有付款",
+      "exp18":"付款",
+      "exp19":"已发送",
+      "exp20":"已收到",
+	  "exp21":"交易"
    }
 }

@@ -34,7 +34,9 @@
       "qchat":"Q-CHAT",
       "groupmanagement":"GESTIÓN DE GRUPO",
       "puzzles":"ROMPECABEZAS",
-      "nodemanagement":"GESTIÓN DE NODO"
+      "nodemanagement":"GESTIÓN DE NODO",
+      "trading":"COMERCIO",
+      "groups":"GRUPOS"
    },
    "login":{
       "login":"Iniciar sesión",
@@ -117,7 +119,16 @@
       "addandsave":"Añadir Y Guardar",
       "protocol":"Protocolo",
       "domain":"Dominio",
-      "port":"Puerto"
+      "port":"Puerto",
+      "import":"Importar Nodos",
+      "export":"Exportar Nodos",
+      "deletecustomnode":"Eliminar todos los nodos personalizados",
+      "warning":"Sus nodos existentes se eliminarán y se crearán nuevos a partir de la copia de seguridad.",
+      "snack1":"Nodos estándar eliminados y agregados con éxito",
+      "snack2":"UI conectada al nodo",
+      "snack3":"Nodo personalizado agregado y guardado con éxito",
+      "snack4":"Nodos guardados con éxito como",
+      "snack5":"Nodos importados con éxito"
    },
    "appinfo":{
       "blockheight":"Altura del Bloque",
@@ -141,7 +152,9 @@
       "next":"Siguiente",
       "create":"Crear",
       "continue":"Continuar",
-      "save":"Guardar"
+      "save":"Guardar",
+      "balance":"Saldo",
+      "balances":"LOS SALDOS DE TU BILLETERA"
    },
    "startminting":{
       "smchange1":"No se pueden obtener cuentas de acuñación",
@@ -299,7 +312,22 @@
       "tchange30":"Fallo en la obtención del saldo. Inténtelo de nuevo!",
       "tchange31":"VENDIDO",
       "tchange32":"COMPRADO",
-      "tchange33":"Tipo de cambio"
+      "tchange33":"Promedio",
+      "tchange34":"La cantidad no puede ser 0",
+      "tchange35":"El precio no puede ser 0",
+      "tchange36":"AUTO COMPRA PENDIENTE",
+      "tchange37":"No se ha encontrado ninguna orden de compra automática!",
+      "tchange38":"AGREGAR",
+      "tchange39":"AUTO ORDEN DE COMPRA",
+      "tchange40":"Precio",
+      "tchange41":"Orden de compra automática eliminada con éxito!",
+      "tchange42":"MERCADO ABIERTO ÓRDENES DE VENTA",
+      "tchange43":"MI HISTORIAL DE COMPRAS",
+      "tchange44":"Orden de compra automática agregada con éxito!",
+      "tchange45":"AUTO COMPRAR CON",
+      "tchange46":"COMPRA AUTOMÁTICA",
+      "tchange47":"Vender por este precio",
+      "tchange48":"NO ES SUFICIENTE"
    },
    "rewardsharepage":{
       "rchange1":"Rewardshares",
@@ -496,7 +524,8 @@
       "bcchange6":"Estás seguro de bloquear a este usuario?",
       "bcchange7":"MENÚ",
       "bcchange8":"Copiar Dirección",
-      "bcchange9":"Mensaje Privado"
+      "bcchange9":"Mensaje Privado",
+      "bcchange10":"Más"
    },
    "grouppage":{
       "gchange1":"Grupos Qortal",
@@ -664,5 +693,28 @@
       "schange19":"Copiar clave de patrocinio",
       "schange20":"Creando relación",
       "schange21":"Eliminar clave de patrocinio"
+   },
+   "explorerpage":{
+      "exp1":"Dirección o nombre a buscar",
+      "exp2":"Saldo de la cuenta",
+      "exp3":"Más información",
+      "exp4":"No se encontró la dirección o el nombre!",
+      "exp5":"Tenga en cuenta que los nombres registrados distinguen entre mayúsculas y minúsculas.",
+      "exp6":"Fundador",
+      "exp7":"Información",
+      "exp8":"Mostrar todas las operaciones de compra",
+      "exp9":"Mostrar todas las operaciones de venta",
+      "exp10":"HISTORIAL DE COMPRAS",
+      "exp11":"HISTORIAL DE VENTAS",
+      "exp12":"Aún no se han realizado operaciones de compra.",
+      "exp13":"Aún no se han realizado operaciones de venta.",
+      "exp14":"Mostrar información completa",
+      "exp15":"Acuñando desde",
+      "exp16":"No acuña",
+      "exp17":"TODOS LOS PAGOS",
+      "exp18":"Pagos",
+      "exp19":"Enviado",
+      "exp20":"Recibido",
+	  "exp21":"Oficios"
    }
 }

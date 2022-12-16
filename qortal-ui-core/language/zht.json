@@ -34,7 +34,9 @@
       "qchat":"Q-CHAT",
       "groupmanagement":"群組管理",
       "puzzles":"益智遊戲",
-      "nodemanagement":"節點管理"
+      "nodemanagement":"節點管理",
+      "trading":"貿易",
+      "groups":"團體"
    },
    "login":{
       "login":"登入",
@@ -117,7 +119,16 @@
       "addandsave":"添加並保存",
       "protocol":"協議",
       "domain":"域名",
-      "port":"端口"
+      "port":"端口",
+      "import":"導入節點",
+      "export":"導出節點",
+      "deletecustomnode":"刪除所有自定義節點",
+      "warning":"您現有的節點將被刪除並從備份中創建新的。",
+      "snack1":"成功刪除和添加標準節點",
+      "snack2":"連接到節點的 UI",
+      "snack3":"成功添加並保存自定義節點",
+      "snack4":"節點成功保存為",
+      "snack5":"節點成功導入"
    },
    "appinfo":{
       "blockheight":"區塊高度",
@@ -141,7 +152,9 @@
       "next":"下一步",
       "create":"創建",
       "continue":"繼續",
-      "save":"保存"
+      "save":"保存",
+      "balance":"信用",
+      "balances":"您的錢包餘額"
    },
    "startminting":{
       "smchange1":"無法獲取鑄幣帳戶",
@@ -299,7 +312,22 @@
       "tchange30":"加載餘額失敗。請重新嘗試!",
       "tchange31":"已賣出",
       "tchange32":"已買入",
-      "tchange33":"匯率"
+      "tchange33":"平均",
+      "tchange34":"金額不能為0",
+      "tchange35":"價格不能為0",
+      "tchange36":"待定汽車購買",
+      "tchange37":"未找到自動購買訂單！",
+      "tchange38":"添加",
+      "tchange39":"自動購買訂單",
+      "tchange40":"價格",
+      "tchange41":"成功刪除自動購買訂單！",
+      "tchange42":"開市賣單",
+      "tchange43":"我的購買歷史",
+      "tchange44":"成功添加自動買單！",
+      "tchange45":"自動購買",
+      "tchange46":"自動購買",
+      "tchange47":"以這個價格出售",
+      "tchange48":"不夠"
    },
    "rewardsharepage":{
       "rchange1":"鑄幣密鑰",
@@ -496,7 +524,8 @@
       "bcchange6":"你確定要封鎖這個用戶嗎？",
       "bcchange7":"菜單",
       "bcchange8":"複製地址",
-      "bcchange9":"私人信息"
+      "bcchange9":"私人信息",
+      "bcchange10":"更多的"
    },
    "grouppage":{
       "gchange1":"Qortal 群組",
@@ -664,5 +693,28 @@
       "schange19":"複製贊助密鑰",
       "schange20":"建立關係",
       "schange21":"刪除贊助密鑰"
+   },
+   "explorerpage":{
+      "exp1":"需要搜索的錢包地址或名稱",
+      "exp2":"賬戶餘額",
+      "exp3":"更多信息",
+      "exp4":"找不到相關錢包地址或名稱！",
+      "exp5":"請注意，註冊名稱區分大小寫。",
+      "exp6":"創始人",
+      "exp7":"信息",
+      "exp8":"顯示所有買入交易",
+      "exp9":"顯示所有賣出交易",
+      "exp10":"買入歷史",
+      "exp11":"賣出歷史",
+      "exp12":"還沒有買入交易。",
+      "exp13":"還沒有賣出交易。",
+      "exp14":"顯示完整信息",
+      "exp15":"鑄幣時間",
+      "exp16":"不鑄幣",
+      "exp17":"所有付款",
+      "exp18":"付款",
+      "exp19":"已發送",
+      "exp20":"已收到",
+	  "exp21":"交易"
    }
 }

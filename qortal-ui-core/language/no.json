@@ -34,7 +34,9 @@
       "qchat":"Q-CHAT",
       "groupmanagement":"GRUPPEADMINISTRASJON",
       "puzzles":"PUZZLES",
-      "nodemanagement":"NODEADMINISTRASJON"
+      "nodemanagement":"NODEADMINISTRASJON",
+      "trading":"HANDEL",
+      "groups":"GRUPPER"
    },
    "login":{
       "login":"Logg på",
@@ -117,7 +119,16 @@
       "addandsave":"Legg til og lagre",
       "protocol":"Protokoll",
       "domain":"Domene",
-      "port":"Port"
+      "port":"Port",
+      "import":"Importer Noder",
+      "export":"Eksporter Noder",
+      "deletecustomnode":"Fjern alle egendefinerte noder",
+      "warning":"Dine eksisterende noder vil bli slettet og nye opprettet fra sikkerhetskopien.",
+      "snack1":"Slettet og lagt til standardnoder",
+      "snack2":"UI koblet til node",
+      "snack3":"Egendefinert node er lagt til og lagret",
+      "snack4":"Noder ble lagret som",
+      "snack5":"Noder ble importert"
    },
    "appinfo":{
       "blockheight":"Blokkhøyde",
@@ -141,7 +152,9 @@
       "next":"Neste",
       "create":"Opprett",
       "continue":"Fortsett",
-      "save":"Lagre"
+      "save":"Lagre",
+      "balance":"Saldo",
+      "balances":"DIN WALLET-SALDO"
    },
    "startminting":{
       "smchange1":"Kan ikke hente myntingkontoer",
@@ -299,7 +312,22 @@
       "tchange30":"Kunne ikke hente saldoen. Prøv igjen!",
       "tchange31":"SOLGT",
       "tchange32":"KJØPT",
-      "tchange33":"Vekslingskurs"
+      "tchange33":"Gjennomsnitt",
+      "tchange34":"Beløpet kan ikke være 0",
+      "tchange35":"Prisen kan ikke være 0",
+      "tchange36":"VENTENDE AUTOKJØP",
+      "tchange37":"Ingen autokjøpsordre funnet!",
+      "tchange38":"LEGGE TIL",
+      "tchange39":"AUTO KJØP ORDRE",
+      "tchange40":"Pris",
+      "tchange41":"Fjernet automatisk kjøpsordre!",
+      "tchange42":"MARKED ÅPNE SALGSORDRE",
+      "tchange43":"MIN KJØPSHISTORIE",
+      "tchange44":"Autokjøpsordre er lagt til!",
+      "tchange45":"AUTOKJØP MED",
+      "tchange46":"AUTOKJØP",
+      "tchange47":"Selges for denne prisen",
+      "tchange48":"IKKE NOK"
    },
    "rewardsharepage":{
       "rchange1":"Belønningsdel",
@@ -491,7 +519,13 @@
       "bcchange1":"blokker",
       "bcchange2":"Blokkering av denne brukeren vellykket!",
       "bcchange3":"Det oppstod en feil ved forsøk på å blokkere denne brukeren. Prøv på nytt!",
-      "bcchange4":"Ingen registrert navn"
+      "bcchange4":"Ingen registrert navn",
+      "bcchange5":"Blokker brukerforespørsel",
+      "bcchange6":"Er du sikker på å blokkere denne brukeren ?",
+      "bcchange7":"MENY",
+      "bcchange8":"Kopier adresse",
+      "bcchange9":"Privat melding",
+      "bcchange10":"Mer"
    },
    "grouppage":{
       "gchange1":"Qortal-grupper",
@@ -659,5 +693,28 @@
       "schange19":"Kopier sponsornøkkel",
       "schange20":"Skaper forhold",
       "schange21":"Fjern sponsornøkkel"
+   },
+   "explorerpage":{
+      "exp1":"Adresse eller navn for å søke",
+      "exp2":"Saldo",
+      "exp3":"Mer informasjon",
+      "exp4":"Finner ikke adresse eller navn!",
+      "exp5":"Merk at registrerte navn skiller mellom store og små bokstaver.",
+      "exp6":"Grunnlegger",
+      "exp7":"Info",
+      "exp8":"Vis alle kjøpshandler",
+      "exp9":"Vis alle salgshandler",
+      "exp10":"KJØPHISTORIE",
+      "exp11":"SELGSHISTORIE",
+      "exp12":"Ingen kjøpshandler gjort ennå.",
+      "exp13":"Ingen salgshandler gjort ennå.",
+      "exp14":"Vis fullstendig informasjon",
+      "exp15":"Preging siden",
+      "exp16":"Ikke preging",
+      "exp17":"ALLE BETALINGER",
+      "exp18":"Betalinger",
+      "exp19":"Sendt",
+      "exp20":"Motta",
+	  "exp21":"Handler"
    }
 }

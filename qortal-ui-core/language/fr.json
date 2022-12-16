@@ -34,7 +34,9 @@
       "qchat":"Q-CHAT",
       "groupmanagement":"GESTION DE GROUPES",
       "puzzles":"PUZZLES",
-      "nodemanagement":"GESTION DE NOEUDS"
+      "nodemanagement":"GESTION DE NOEUDS",
+      "trading":"COMMERCE",
+      "groups":"GROUPES"
    },
    "login":{
       "login":"Connexion",
@@ -117,7 +119,16 @@
       "addandsave":"Ajouter et sauvegarder",
       "protocol":"Protocole",
       "domain":"Domaine",
-      "port":"Port"
+      "port":"Port",
+      "import":"Importer des Noeuds",
+      "export":"Exporter des Noeuds",
+      "deletecustomnode":"Supprimer tous les noeuds personnalisés",
+      "warning":"Vos noeuds existants seront supprimés et créés à partir de la sauvegarde.",
+      "snack1":"Noeuds standard supprimés et ajoutés avec succès",
+      "snack2":"Interface utilisateur connectée au noeud",
+      "snack3":"Noeud personnalisé ajouté et enregistré avec succès",
+      "snack4":"Les noeuds ont été enregistrés avec succès sous",
+      "snack5":"Les noeuds ont été importés avec succès"
    },
    "appinfo":{
       "blockheight":"Hauteur de bloc",
@@ -141,7 +152,9 @@
       "next":"Suivant",
       "create":"Créer",
       "continue":"Continuer",
-      "save":"Sauvegarder"
+      "save":"Sauvegarder",
+      "balance":"Solde",
+      "balances":"VOS SOLDES DE PORTEFEUILLE"
    },
    "startminting":{
       "smchange1":"Impossible de récupérer les comptes de frappe",
@@ -299,7 +312,22 @@
       "tchange30":"Échec de la récupération du solde. Réessayez!",
       "tchange31":"VENDU",
       "tchange32":"ACHETE",
-      "tchange33":"Taux de change"
+      "tchange33":"Moyen",
+      "tchange34":"Le montant ne peut pas être 0",
+      "tchange35":"Le prix ne peut pas être 0",
+      "tchange36":"ACHAT AUTOMATIQUE EN ATTENTE",
+      "tchange37":"Aucune commande d'achat automatique trouvée !",
+      "tchange38":"AJOUTER",
+      "tchange39":"COMMANDE D'ACHAT AUTOMATIQUE",
+      "tchange40":"Prix",
+      "tchange41":"Commande d'achat automatique supprimée avec succès !",
+      "tchange42":"ORDRES DE VENTE À L'OUVERTURE DU MARCHÉ",
+      "tchange43":"MON HISTORIQUE D'ACHAT",
+      "tchange44":"Commande d'achat automatique ajoutée avec succès !",
+      "tchange45":"ACHAT AUTO AVEC",
+      "tchange46":"ACHAT AUTOMATIQUE",
+      "tchange47":"Vendre à ce prix",
+      "tchange48":"PAS ASSEZ"
    },
    "rewardsharepage":{
       "rchange1":"Récompenses",
@@ -496,7 +524,8 @@
       "bcchange6":"Êtes-vous sûr de bloquer cet utilisateur ?",
       "bcchange7":"MENU",
       "bcchange8":"Copier l'Adresse",
-      "bcchange9":"Message Privé"
+      "bcchange9":"Message Privé",
+      "bcchange10":"Suite"
    },
    "grouppage":{
       "gchange1":"Groupes Qortal",
@@ -664,5 +693,28 @@
       "schange19":"Copier la clé de parrainage",
       "schange20":"Créer une relation",
       "schange21":"Supprimer la clé de parrainage"
+   },
+   "explorerpage":{
+      "exp1":"Adresse ou nom à rechercher",
+      "exp2":"Solde du compte",
+      "exp3":"Plus d'informations",
+      "exp4":"Adresse ou nom introuvable !",
+      "exp5":"Notez que les noms enregistrés sont sensibles à la casse.",
+      "exp6":"Fondateur",
+      "exp7":"Info",
+      "exp8":"Afficher toutes les transactions d'achat",
+      "exp9":"Afficher toutes les transactions de vente",
+      "exp10":"ACHETER L'HISTORIQUE",
+      "exp11":"HISTORIQUE DE VENTE",
+      "exp12":"Aucune transaction d'achat n'a encore été effectuée.",
+      "exp13":"Aucune transaction de vente n'a encore été effectuée.",
+      "exp14":"Afficher les informations complètes",
+      "exp15":"Fabrication depuis",
+      "exp16":"Pas de frappe",
+      "exp17":"TOUS LES PAIEMENTS",
+      "exp18":"Paiements",
+      "exp19":"Envoyé",
+      "exp20":"Reçu",
+	  "exp21":"Métiers"
    }
 }

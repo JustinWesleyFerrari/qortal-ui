@@ -34,7 +34,9 @@
       "qchat":"Q-CHAT",
       "groupmanagement":"GRUPPENMANAGEMENT",
       "puzzles":"RÄTSEL",
-      "nodemanagement":"KNOTENVERWALTUNG"
+      "nodemanagement":"KNOTENVERWALTUNG",
+      "trading":"HANDELN",
+      "groups":"GRUPPEN"
    },
    "login":{
       "login":"Einloggen",
@@ -117,7 +119,16 @@
       "addandsave":"Hinzufügen und speichern",
       "protocol":"Protokoll",
       "domain":"Domain",
-      "port":"Port"
+      "port":"Port",
+      "import":"Knoten Importieren",
+      "export":"Knoten Exportieren",
+      "deletecustomnode":"Alle benutzerdefinierten Knoten entfernen",
+      "warning":"Ihre bestehenden Knoten werden gelöscht und aus dem Backup neu erstellt.",
+      "snack1":"Standardknoten erfolgreich gelöscht und hinzugefügt",
+      "snack2":"UI mit Knoten verbunden",
+      "snack3":"Benutzerdefinierter Knoten erfolgreich hinzugefügt und gespeichert",
+      "snack4":"Knoten erfolgreich gespeichert als",
+      "snack5":"Knoten erfolgreich importiert"
    },
    "appinfo":{
       "blockheight":"Blockhöhe",
@@ -141,7 +152,9 @@
       "next":"Weiter",
       "create":"Erstellen",
       "continue":"Fortsetzen",
-      "save":"Speichern"
+      "save":"Speichern",
+      "balance":"Guthaben",
+      "balances":"IHR WALLET-GUTHABEN"
    },
    "startminting":{
       "smchange1":"Prägekonten können nicht abgerufen werden",
@@ -299,7 +312,22 @@
       "tchange30":"Guthaben konnte nicht abgerufen werden. Versuchen Sie es nochmal!",
       "tchange31":"VERKAUFT",
       "tchange32":"GEKAUFT",
-      "tchange33":"Tauschrate"
+      "tchange33":"Durchschnitt",
+      "tchange34":"Betrag darf nicht 0 sein",
+      "tchange35":"Der Preis darf nicht 0 sein",
+      "tchange36":"AUSSTEHENDER AUTOKAUF",
+      "tchange37":"Keine automatische Kaufbestellung gefunden!",
+      "tchange38":"HINZUFÜGEN",
+      "tchange39":"AUTO KAUFAUFTRAG",
+      "tchange40":"Preis",
+      "tchange41":"Automatischer Kaufauftrag erfolgreich entfernt!",
+      "tchange42":"MARKET OFFENE VERKAUFSAUFTRÄGE",
+      "tchange43":"MEINE KAUFGESCHICHTE",
+      "tchange44":"Automatischer Kaufauftrag erfolgreich hinzugefügt!",
+      "tchange45":"AUTO KAUFEN MIT",
+      "tchange46":"AUTOKAUF",
+      "tchange47":"Verkaufe für diesen Preis",
+      "tchange48":"NICHT GENUG"
    },
    "rewardsharepage":{
       "rchange1":"Belohnungsanteile",
@@ -496,7 +524,8 @@
       "bcchange6":"Möchten Sie diesen Benutzer wirklich blockieren?",
       "bcchange7":"MENÜ",
       "bcchange8":"Adresse Kopieren",
-      "bcchange9":"Private Nachricht"
+      "bcchange9":"Private Nachricht",
+      "bcchange10":"Mehr"
    },
    "grouppage":{
       "gchange1":"Qortal-Gruppen",
@@ -664,5 +693,28 @@
       "schange19":"Sponsoring-Schlüssel kopieren",
       "schange20":"Beziehung schaffen",
       "schange21":"Sponsoring-Schlüssel entfernen"
+   },
+   "explorerpage":{
+      "exp1":"Adresse oder Name zum Suchen",
+      "exp2":"Kontostand",
+      "exp3":"Mehr Info",
+      "exp4":"Adresse oder Name nicht gefunden !",
+      "exp5":"Beachten Sie, dass bei registrierten Namen zwischen Groß- und Kleinschreibung unterschieden wird.",
+      "exp6":"Gründer",
+      "exp7":"Info",
+      "exp8":"Alle Kaufgeschäfte anzeigen",
+      "exp9":"Alle Verkaufsgeschäfte anzeigen",
+      "exp10":"KAUFGESCHICHTE",
+      "exp11":"VERKAUFSGESCHICHTE",
+      "exp12":"Noch keine Kauftransaktionen getätigt.",
+      "exp13":"Noch keine Verkaufsgeschäfte getätigt.",
+      "exp14":"Vollständige Informationen anzeigen",
+      "exp15":"Prägung seit",
+      "exp16":"Nicht am prägen",
+      "exp17":"ALLE ZAHLUNGEN",
+      "exp18":"Zahlungen",
+      "exp19":"Gesendet",
+      "exp20":"Empfangen",
+	  "exp21":"Trades"
    }
 }

@@ -34,7 +34,9 @@
       "qchat":"Q-CHAT",
       "groupmanagement":"GESTIONARE GRUP",
       "puzzles":"PUZZLE-URI",
-      "nodemanagement":"GESTIONARE NOD"
+      "nodemanagement":"GESTIONARE NOD",
+      "trading":"COMERCIAL",
+      "groups":"GRUPURI"
    },
    "login":{
       "login":"Login",
@@ -117,7 +119,16 @@
       "addandsave":"Adauga Si Salveaza",
       "protocol":"Protocol",
       "domain":"Domeniu",
-      "port":"Port"
+      "port":"Port",
+      "import":"Import Noduri",
+      "export":"Export Noduri",
+      "deletecustomnode":"Eliminati toate nodurile personalizate",
+      "warning":"Nodurile dvs. existente vor fi sterse si din backup vor fi create noi.",
+      "snack1":"Noduri standard au fost sterse si adaugate cu succes",
+      "snack2":"Interfata de utilizare conectata la nod",
+      "snack3":"Nod personalizat adaugat si salvat cu succes",
+      "snack4":"Nodurile au fost salvate cu succes ca",
+      "snack5":"Nodurile au fost importate cu succes"
    },
    "appinfo":{
       "blockheight":"Dimensiunea blocului",
@@ -141,7 +152,9 @@
       "next":"Inainte",
       "create":"Creaza",
       "continue":"Continua",
-      "save":"Salveza"
+      "save":"Salveza",
+      "balance":"Credit",
+      "balances":"SOLDELE PORTOTELULUI DVS"
    },
    "startminting":{
       "smchange1":"Nu se pot prelua conturile de batere",
@@ -299,7 +312,22 @@
       "tchange30":"Nu s-a reusit actualizarea soldului. Mai incearca odata!",
       "tchange31":"VANDUT",
       "tchange32":"CUMPARAT",
-      "tchange33":"Rata de schimb"
+      "tchange33":"In medie",
+      "tchange34":"Suma nu poate fi 0",
+      "tchange35":"Pretul nu poate fi 0",
+      "tchange36":"CUMPARARE AUTOMATĂ in așteptare",
+      "tchange37":"Nu a fost gasită nicio comandă de cumparare automata!",
+      "tchange38":"ADAUGA",
+      "tchange39":"COMANDA DE CUMPARARE AUTOMATA",
+      "tchange40":"Pret",
+      "tchange41":"Comanda de cumparare automata a fost eliminata cu succes!",
+      "tchange42":"PIATA DESCHISA COMENZI DE VANZARE",
+      "tchange43":"ISTORICUL MEU DE CUMPARARI",
+      "tchange44":"Comanda de cumparare automata a fost adaugata cu succes!",
+      "tchange45":"CUMPARA AUTOMATA CU",
+      "tchange46":"CUMPARARE AUTOMATA",
+      "tchange47":"Vinde la acest pret",
+      "tchange48":"INSUFICIENT"
    },
    "rewardsharepage":{
       "rchange1":"Cote de recompensa",
@@ -496,7 +524,8 @@
       "bcchange6":"Sunteti sigur ca doriti sa blocati acest utilizator ?",
       "bcchange7":"MENIU",
       "bcchange8":"Copiati adresa",
-      "bcchange9":"Mesaj privat"
+      "bcchange9":"Mesaj privat",
+      "bcchange10":"Mai mult"
    },
    "grouppage":{
       "gchange1":"Grupuri Qortal Groups",
@@ -664,5 +693,28 @@
       "schange19":"Copiati cheia de sponsorizare",
       "schange20":"Crearea unei relatii",
       "schange21":"Eliminati cheia de sponsorizare"
+   },
+   "explorerpage":{
+      "exp1":"Adresa sau numele de căutat",
+      "exp2":"Soldul contului",
+      "exp3":"Mai multe informatii",
+      "exp4":"Adresa sau Numele nu a fost găsit!",
+      "exp5":"Retineti că numele înregistrate sunt sensibile la majuscule.",
+      "exp6":"Fondator",
+      "exp7":"Info",
+      "exp8":"Afișati toate tranzactiile de cumpărare",
+      "exp9":"Afișati toate tranzactiile de vânzare",
+      "exp10":"ISTORICUL CUMPĂRĂRII",
+      "exp11":"ISTORICUL VÂNZĂRILOR",
+      "exp12":"Nu s-a efectuat încă tranzactii de cumpărare.",
+      "exp13":"Încă nu au fost efectuate tranzactii de vânzare.",
+      "exp14":"Afișati informatiile complete",
+      "exp15":"Battering de la",
+      "exp16":"Nu se bate",
+      "exp17":"TOATE PLĂTILE",
+      "exp18":"Plăti",
+      "exp19":"Trimis",
+      "exp20":"Primit",
+	  "exp21":"Meserii"
    }
 }

@@ -34,7 +34,9 @@
       "qchat":"Q-CHAT",
       "groupmanagement":"GROUP MANAGEMENT",
       "puzzles":"PUZZLES",
-      "nodemanagement":"NODE MANAGEMENT"
+      "nodemanagement":"NODE MANAGEMENT",
+      "trading":"TRADING",
+      "groups":"GROUPS"
    },
    "login":{
       "login":"Login",
@@ -117,7 +119,16 @@
       "addandsave":"Add And Save",
       "protocol":"Protocol",
       "domain":"Domain",
-      "port":"Port"
+      "port":"Port",
+      "import":"Import Nodes",
+      "export":"Export Nodes",
+      "deletecustomnode":"Remove All Custom Nodes",
+      "warning":"Your existing nodes will be deleted and from backup new created.",
+      "snack1":"Successfully deleted and added standard nodes",
+      "snack2":"UI conected to node",
+      "snack3":"Successfully added and saved custom node",
+      "snack4":"Nodes successfully saved as",
+      "snack5":"Nodes successfully imported"
    },
    "appinfo":{
       "blockheight":"Block Height",
@@ -141,7 +152,9 @@
       "next":"Next",
       "create":"Create",
       "continue":"Continue",
-      "save":"Save"
+      "save":"Save",
+      "balance":"Balance",
+      "balances":"YOUR WALLET BALANCES"
    },
    "startminting":{
       "smchange1":"Cannot fetch minting accounts",
@@ -299,7 +312,22 @@
       "tchange30":"Failed to Fetch Balance. Try again!",
       "tchange31":"SOLD",
       "tchange32":"BOUGHT",
-      "tchange33":"Exchange Rate"
+      "tchange33":"Average",
+      "tchange34":"Amount can not be 0",
+      "tchange35":"Price can not be 0",
+      "tchange36":"PENDING AUTO BUY",
+      "tchange37":"No auto buy order found !",
+      "tchange38":"ADD",
+      "tchange39":"AUTO BUY ORDER",
+      "tchange40":"Price",
+      "tchange41":"Successfully removed auto buy order!",
+      "tchange42":"MARKET OPEN SELL ORDERS",
+      "tchange43":"MY BUY HISTORY",
+      "tchange44":"Successfully added auto buy order!",
+      "tchange45":"AUTO BUY WITH",
+      "tchange46":"AUTO BUY",
+      "tchange47":"Sell for this price",
+      "tchange48":"NOT ENOUGH"
    },
    "rewardsharepage":{
       "rchange1":"Rewardshares",
@@ -496,7 +524,8 @@
       "bcchange6":"Are you sure to block this user ?",
       "bcchange7":"MENU",
       "bcchange8":"Copy Address",
-      "bcchange9":"Private Message"
+      "bcchange9":"Private Message",
+      "bcchange10":"More"
    },
    "grouppage":{
       "gchange1":"Qortal Groups",
@@ -664,5 +693,28 @@
       "schange19":"Copy Sponsorship Key",
       "schange20":"Creating relationship",
       "schange21":"Remove Sponsorship Key"
+   },
+   "explorerpage":{
+      "exp1":"Address or name to search",
+      "exp2":"Account Balance",
+      "exp3":"More Info",
+      "exp4":"Address or Name not found !",
+      "exp5":"Note that registered names are case-sensitive.",
+      "exp6":"Founder",
+      "exp7":"Info",
+      "exp8":"Show all buy trades",
+      "exp9":"Show all sell trades",
+      "exp10":"BUY HISTORY",
+      "exp11":"SELL HISTORY",
+      "exp12":"No buy trades made yet.",
+      "exp13":"No sell trades made yet.",
+      "exp14":"Show complete info",
+      "exp15":"Minting Since",
+      "exp16":"Not Minting",
+      "exp17":"ALL PAYMENTS",
+      "exp18":"Payments",
+      "exp19":"Sent",
+      "exp20":"Received",
+      "exp21":"Trades"
    }
 }
