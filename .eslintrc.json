@@ -5,11 +5,11 @@
   },
   "extends": [
     "eslint:recommended",
-    "plugin:lit/recommended"
+    "plugin:lit/recommended",
+    "plugin:wc/recommended"
   ],
-  "overrides": [],
   "parserOptions": {
-    "ecmaVersion": "latest",
+    "ecmaVersion": 12,
     "sourceType": "module"
   },
   "rules": {

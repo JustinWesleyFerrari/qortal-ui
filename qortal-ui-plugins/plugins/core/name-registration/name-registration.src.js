@@ -272,7 +272,7 @@ class NameRegistration extends LitElement {
         const myNode = window.parent.reduxStore.getState().app.nodeConfig.knownNodes[window.parent.reduxStore.getState().app.nodeConfig.node]
         const nodeUrl = myNode.protocol + '://' + myNode.domain + ':' + myNode.port
         const url = `${nodeUrl}/arbitrary/THUMBNAIL/${name}/qortal_avatar?async=true&apiKey=${this.getApiKey()}`;
-        return html`<img src="${url}" onerror="this.onerror=null; this.src='/img/incognito.png';">`
+        return html`<img src="${url}" onerror="this.onerror=null; this.src='/img/qortal-chat-logo.png';">`
     }
 
     renderAvatarButton(nameObj) {
@@ -280,7 +280,7 @@ class NameRegistration extends LitElement {
     }
 
     async uploadAvatar(nameObj) {
-        let name = nameObj.name
+        let name = encodeURIComponent(nameObj.name)
         window.location.href = `../qdn/publish/index.html?service=THUMBNAIL&identifier=qortal_avatar&name=${name}&uploadType=file&category=Avatar&showName=false&showService=false&showIdentifier=false`
     }
 

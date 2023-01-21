@@ -128,14 +128,19 @@
       "snack2":"Interfejs użytkownika połączony z węzłem",
       "snack3":"Pomyślnie dodano i zapisano niestandardowy węzeł",
       "snack4":"Węzły pomyślnie zapisane jako",
-      "snack5":"Węzły pomyślnie zaimportowane"
+      "snack5":"Węzły pomyślnie zaimportowane",
+      "exp1":"Eksportuj prywatny klucz główny",
+      "exp2":"Eksportuj klucz główny",
+      "exp3":"Eksportuj",
+      "exp4":"Wybierz portfel do wykonania kopii zapasowej prywatnego klucza głównego."
    },
    "appinfo":{
       "blockheight":"Wysokość bloku",
       "uiversion":"Wersja interfejsu użytkownika",
       "coreversion":"Wersja rdzenia",
       "minting":"(Minting)",
-      "synchronizing":"Synchronizacja"
+      "synchronizing":"Synchronizacja",
+      "peers":"Połączeni rówieśnicy"
    },
    "walletprofile":{
       "minterlevel":"Poziom Mintera",
@@ -154,7 +159,8 @@
       "continue":"Kontynuuj",
       "save":"Zapisz",
       "balance":"Saldo",
-      "balances":"SALDO TWOJEGO PORTFELA"
+      "balances":"SALDO TWOJEGO PORTFELA",
+      "update":"AKTUALIZUJ SALDA W PORTFELU"
    },
    "startminting":{
       "smchange1":"Nie można pobrać kont menniczych",
@@ -327,7 +333,8 @@
       "tchange45":"AUTO KUP Z",
       "tchange46":"AUTO KUP",
       "tchange47":"Sprzedaj za tę cenę",
-      "tchange48":"NIEWYSTARCZAJĄCO"
+      "tchange48":"NIEWYSTARCZAJĄCO",
+      "tchange49":"Tabela cen"
    },
    "rewardsharepage":{
       "rchange1":"Podział nagród",
@@ -371,7 +378,29 @@
       "nchange15":"Ustaw awatara",
       "nchange16":"Potrzebna aktualizacja rdzenia",
       "nchange17":"Nazwa już istnieje!",
-      "nchange18":"Rejestracja nazwy powiodła się!"
+      "nchange18":"Rejestracja nazwy powiodła się!",
+      "nchange19":"Nazwa sprzedaży",
+      "nchange20":"Anuluj sprzedaż",
+      "nchange21":"Kup nazwę",
+      "nchange22":"Otwórz nazwy rynków do sprzedaży",
+      "nchange23":"Cena sprzedaży",
+      "nchange24":"Brak nazw do sprzedania",
+      "nchange25":"Nazwa do sprzedania",
+      "nchange26":"Czy na pewno chcesz sprzedać tę nazwę?",
+      "nchange27":"Za tę cenę w QORT",
+      "nchange28":"Po naciśnięciu potwierdzenia zostanie wysłane zapytanie o nazwę sprzedaży!",
+      "nchange29":"Nazwa do anulowania",
+      "nchange30":"Czy na pewno chcesz anulować sprzedaż dla tej nazwy?",
+      "nchange31":"Po naciśnięciu potwierdzenia zostanie wysłane żądanie anulowania nazwy sprzedaży!",
+      "nchange32":"Żądanie nazwy sprzedaży powiodło się!",
+      "nchange33":"Anulowanie żądania nazwy sprzedaży powiodło się!",
+      "nchange34":"Żądanie nazwy zakupu powiodło się!",
+      "nchange35":"MASZ IMIĘ!",
+      "nchange36":"Tylko konta bez zarejestrowanej nazwy mogą kupić nazwę.",
+      "nchange37":"UWAGA!",
+      "nchange38":"Nie masz wystarczającej ilości qort, aby kupić tę nazwę.",
+      "nchange39":"Czy na pewno kupisz tę nazwę?",
+      "nchange40":"Po naciśnięciu potwierdzenia, prośba o nazwę kupna zostanie wysłana!"
    },
    "websitespage":{
       "schange1":"Przeglądaj strony internetowe",
@@ -502,7 +531,9 @@
       "cchange21":"Wysyłanie nie powiodło się, spróbuj ponownie...",
       "cchange22":"Ładowanie wiadomości...",
       "cchange23":"Nie można odszyfrować wiadomości!",
-      "cchange24":"Maksymalna liczba znaków na wiadomość to 255"
+      "cchange24":"Maksymalna liczba znaków na wiadomość to 255",
+      "cchange25":"Twoje saldo jest poniżej 4,20 QORT",
+      "cchange26":"Ze względu na konieczność zwalczania spamu konta z saldem poniżej 4,20 Qort będą potrzebowały dużo czasu na WYSYŁANIE wiadomości w Q-Chat. Jeśli chcesz natychmiast zwiększyć prędkość wysyłania wiadomości Q-Chat, uzyskaj ponad 4,20 QORT na Twój adres. Można to zrobić za pomocą transakcji w Portalu handlowym lub za pośrednictwem innego Qortian, który przekaże Ci QORT. Gdy masz ponad 4,20 QORT na swoim koncie, wiadomości Q-Chat będą natychmiastowe i to okno dialogowe nie będzie już więcej pokaż. Dziękujemy za zrozumienie tej niezbędnej metody zapobiegania spamowi i mamy nadzieję, że spodoba ci się Qortal!"
    },
    "welcomepage":{
       "wcchange1":"Witamy w Q-Chat",
@@ -581,7 +612,11 @@
       "gchange51":"Dołącz",
       "gchange52":"Administrator",
       "gchange53":"Członek",
-      "gchange54":"Członkowie"
+      "gchange54":"Członkowie",
+      "gchange55":"Wyszukaj grupę prywatną",
+      "gchange56":"Nazwa grupy do wyszukania",
+      "gchange57":"Nie znaleziono nazwy grupy prywatnej",
+      "gchange58":"Zauważ, że nazwa grupy musi dokładnie pasować."
    },
    "puzzlepage":{
       "pchange1":"Zagadki",
@@ -715,6 +750,69 @@
       "exp18":"Płatności",
       "exp19":"Wysłane",
       "exp20":"Otrzymano",
-	  "exp21":"Transakcji"
+	"exp21":"Transakcji"
+   },
+   "managegroup":{
+      "mg1":"Członkowie grupy",
+      "mg2":"Zaproś do grupy",
+      "mg3":"Administratorzy grupy",
+      "mg4":"Grupa aktualizacji",
+      "mg5":"Zamknij Zarządzaj grupą",
+      "mg6":"BAN",
+      "mg7":"KOPANIE",
+      "mg8":"Identyfikator grupy",
+      "mg9":"Dołączył",
+      "mg10":"Dodaj administratora grupy",
+      "mg11":"Czy na pewno chcesz dodać tego członka do administratorów?",
+      "mg12":"Po naciśnięciu potwierdzenia zostanie wysłana prośba o dodanie administratora!",
+      "mg13":"Usuń administratora grupy",
+      "mg14":"Usuń adres administratora",
+      "mg15":"Czy na pewno chcesz usunąć tego członka z listy administratorów?",
+      "mg16":"Po naciśnięciu potwierdzenia zostanie wysłana prośba o usunięcie administratora!",
+      "mg17":"Zablokuj członka grupy",
+      "mg18":"Nazwa członka",
+      "mg19":"Adres członka",
+      "mg20":"Jak długo banować",
+      "mg21":"Powód bana",
+      "mg22":"Czy na pewno chcesz zablokować tego członka grupy?",
+      "mg23":"Po naciśnięciu potwierdzenia, prośba o ban zostanie wysłana!",
+      "mg24":"ZAWSZE",
+      "mg25":"Zablokowani członkowie",
+      "mg26":"ANULUJ BAN",
+      "mg27":"Wygaśnięcie bana",
+      "mg28":"Anuluj zablokowanie członka z grupy",
+      "mg29":"Czy na pewno chcesz anulować bana dla tego członka grupy?",
+      "mg30":"Po naciśnięciu potwierdzenia zostanie wysłane żądanie anulowania bana!",
+      "mg31":"Wyrzuć członka z grupy",
+      "mg32":"Powód wyrzucenia",
+      "mg33":"Czy na pewno chcesz wyrzucić tego członka z grupy?",
+      "mg34":"Po naciśnięciu potwierdzenia prośba o wyrzucenie zostanie wysłana!",
+      "mg35":"Brak otwartych zaproszeń do grup",
+      "mg36":"Twoje otwarte zaproszenia do grupy",
+      "mg37":"Adres lub nazwa do zaproszenia",
+      "mg38":"Czas wygaśnięcia zaproszenia",
+      "mg39":"Wszystkie pola są wymagane",
+      "mg40":"Czy na pewno chcesz zaprosić tego członka do grupy?",
+      "mg41":"Po naciśnięciu potwierdzenia, prośba o zaproszenie zostanie wysłana!",
+      "mg42":"Typ grupy",
+      "mg43":"Wygaśnięcie zaproszenia",
+      "mg44":"Grupa publiczna",
+      "mg45":"Grupa prywatna",
+      "mg46":"Anuluj zaproszenie",
+      "mg47":"Anuluj zaproszenie do grupy",
+      "mg48":"Czy na pewno chcesz anulować zaproszenie dla tego członka?",
+      "mg49":"Po naciśnięciu potwierdzenia zostanie wysłana prośba o anulowanie zaproszenia!",
+      "mg50":"Już wkrótce...",
+      "mg51":"Minimum 3 znaki / Maksymalnie 32 znaki",
+      "mg52":"Maksymalnie 128 znaków",
+      "mg53":"Twoje otwarte prośby o dołączenie",
+      "mg54":"Brak otwartych próśb o dołączenie",
+      "mg55":"Czy na pewno akceptujesz prośbę o dołączenie od tego członka?",
+      "mg56":"Po naciśnięciu potwierdzenia zostanie wysłana prośba o zaakceptowanie dołączenia!",
+      "mg57":"Prośba o dołączenie pomyślnie zaakceptowana",
+      "mg58":"COŚ POszło nie tak",
+      "mg59":"Anuluj prośbę o dołączenie pomyślnie zaakceptowaną",
+      "mg60":"Czy na pewno chcesz anulować prośbę o dołączenie od tego członka?",
+      "mg61":"Po naciśnięciu potwierdzenia, zostanie wysłana prośba o anulowanie dołączenia!"
    }
 }
