@@ -1613,7 +1613,7 @@ class ChatPage extends LitElement {
 
         const isRecipient = this.chatId.includes('direct') === true ? true : false;
         const groupId = this.chatId.split('/')[1];
-        if(!isRecipient && groupId !== 0){
+        if(!isRecipient && groupId.toString() !== '0'){
 
             try {
                 const getMembers = await parentEpml.request("apiCall", {
@@ -2993,6 +2993,15 @@ class ChatPage extends LitElement {
                     let successString = get("blockpage.bcchange15");
                     parentEpml.request('showSnackBar', `${successString}`);
                 }
+
+                this.closeEditMessageContainer()
+                this.closeRepliedToContainer()
+                this.openForwardOpen = false
+                this.forwardActiveChatHeadUrl = {
+                url: "",
+                name: "",
+                selected: false
+                }
             } else if (response.error) {
                 parentEpml.request('showSnackBar', response.message);
             } else {
@@ -3004,14 +3013,7 @@ class ChatPage extends LitElement {
                 return
             }
             this.isLoading = false;
-            this.closeEditMessageContainer()
-            this.closeRepliedToContainer()
-            this.openForwardOpen = false
-            this.forwardActiveChatHeadUrl = {
-                url: "",
-                name: "",
-                selected: false
-            }
+            
         };
 
         if (isForward) {
