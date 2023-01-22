@@ -2661,7 +2661,7 @@ class ChatPage extends LitElement {
             if(findEmojiIndex !== -1){
                 let users =  reactions[findEmojiIndex].users || []
                 const findUserIndex = users.findIndex((user)=> user === this.selectedAddress.address )
-                if(findUserIndex !== -1){
+                if (findUserIndex !== -1) {
                   users.splice(findUserIndex, 1)
                 } else {
                     users.push(this.selectedAddress.address)
@@ -2671,7 +2671,7 @@ class ChatPage extends LitElement {
                     qty: users.length,
                     users
                 }
-                if(users.length === 0){
+                if (users.length === 0) {
                     reactions.splice(findEmojiIndex, 1)
                 }
             } else {
